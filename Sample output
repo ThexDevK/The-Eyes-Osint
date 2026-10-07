@@ -1,0 +1,77 @@
+Sample Output
+╔══════════════════════════════════════════════════════════════╗
+║                    THE EYES - REPORT                         ║
+║                    Target: example.com                       ║
+╚══════════════════════════════════════════════════════════════╝
+
+[🌐] WHOIS INFORMATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Domain: example.com
+Registrar: Example Registrar, LLC
+Created: 1995-08-14
+Expires: 2025-08-13
+Updated: 2024-01-15
+Name Servers: ns1.example.com, ns2.example.com
+
+[📝] DNS RECORDS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+A Records:     93.184.216.34
+AAAA Records:  2606:2800:220:1:248:1893:25c8:1946
+MX Records:    10 mail.example.com
+NS Records:    ns1.example.com, ns2.example.com
+TXT Records:   "v=spf1 include:_spf.example.com ~all"
+
+[🔎] SUBDOMAINS DISCOVERED (15 found)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+www.example.com        mail.example.com
+ftp.example.com        blog.example.com
+shop.example.com       api.example.com
+...
+
+[🗺️] IP GEOLOCATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+IP Address:    93.184.216.34
+Country:       United States
+City:          Los Angeles
+Region:        California
+ISP:           Example ISP
+Organization:  Example Org
+ASN:           AS15133
+
+[🛠️] TECHNOLOGIES DETECTED
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Server:        Apache/2.4.41
+CMS:           WordPress 6.4.2
+JavaScript:    jQuery 3.6.0, React 18.2.0
+Analytics:     Google Analytics, Google Tag Manager
+CDN:           CloudFlare
+
+[🔒] SSL CERTIFICATE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Subject:       CN=example.com
+Issuer:        Let's Encrypt Authority X3
+Valid From:    2024-01-01
+Valid Until:   2024-04-01
+Serial:        00:AA:BB:CC:DD:EE:FF:00:11:22:33:44:55:66:77:88
+Signature:     SHA256-RSA
+SANs:          example.com, www.example.com
+
+[🛡️] SECURITY HEADERS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Strict-Transport-Security: ✓ present
+X-Frame-Options:           ✓ DENY
+X-Content-Type-Options:      ✓ nosniff
+Content-Security-Policy:   ✗ missing
+X-XSS-Protection:          ✓ 1; mode=block
+
+[🔌] PORT SCAN RESULTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Open Ports:
+  80/tcp    HTTP     Apache httpd 2.4.41
+  443/tcp   HTTPS    Apache httpd 2.4.41 (SSL)
+  22/tcp    SSH      OpenSSH 8.2p1
+
+[📚] WAYBACK MACHINE URLS (50 most recent)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+https://web.archive.org/web/20240101000000*/example.com
+...
